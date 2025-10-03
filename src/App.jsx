@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Index from './components/pages/incio.jsx'
+import Registro from "./components/pages/registro.jsx"
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -8,8 +9,8 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path='/' element={<Index/>}></Route>
-        
+        <Route path='/' element={<Index/>}> </Route>
+        <Route path="/Registro" element={<Registro/>} ></Route>
 
       </Routes>
     </>
